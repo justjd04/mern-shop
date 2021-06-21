@@ -1,0 +1,43 @@
+#header{
+    position: relative;
+    display: flex;
+    background: linear-gradient(rgba(192, 197, 236, 0.1), rgba(111, 105, 192, 0.1)), url(https://images.pexels.com/photos/887480/pexels-photo-887480.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--hFont);
+    height: 100vh;
+    overflow:hidden;
+  }
+  .header-heading{
+    position: absolute;
+    text-align: left;
+    top: 200px;
+    transform: translate(-120%, 300%);
+    transition: all 0.5s linear;
+    margin: 20px;
+    }
+    #header:hover .header-heading{
+      transform: translate(0,0);
+      visibility: visible;
+    }
+
+    @media (max-width: 960px) {
+      .header-heading{
+        transform: translate(-120%, 350%);
+        transition: all 0.5s linear;
+        top: 250px;
+        }
+    }
+
+    .up_game {
+      color: #dd219e;
+      font-size: 1.2rem;
+      font-weight: bolder;
+    }
+
+    .cool_zone {
+      color:rgb(61, 106, 190);
+      font-size: 5rem;
+      font-weight: bolder;
+    }

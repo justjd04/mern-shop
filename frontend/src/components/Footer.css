@@ -1,0 +1,46 @@
+#footer {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 20px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+@media (max-width: 630px) {
+    #footer {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+.footer_col{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer_col h2{
+    padding: 10px;
+}
+
+.footer_col p{
+    padding: 10px;
+}
+
+.footer_col h3{
+    padding: 10px;
+}
+
+.footer_links {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer_links:hover {
+    color: #ff0080;
+}
+
+
