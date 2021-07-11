@@ -1,5 +1,5 @@
 # mern-shop
 
-### Published:
+## Published:
 
-## https://www.coolzone.space/
+### https://www.coolzone.space/
